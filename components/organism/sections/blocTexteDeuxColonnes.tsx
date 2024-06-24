@@ -27,13 +27,15 @@ export const BlocTexteDeuxColonnes: React.FC<BlocTexteDeuxColonnesProps> = ({ Te
             {/* Section */}
             <div className="flex flex-wrap justify-between items-start">
                 <div className="lg:w-1/2 h-full pr-28   border-r">
-                    <Heading2 size="small" className="text-left leading-6 " children={titre1} />
-                    <p className="text-left texte_class my-8" dangerouslySetInnerHTML={{ __html: htmlContent }}></p>
+                    <Heading2 size="small" className="text-left leading-6 ">
+                        {titre1}
+                    </Heading2>    
+                <p className="text-left texte_class my-8" dangerouslySetInnerHTML={{ __html: htmlContent }}></p>
                 </div>
                 <div className="lg:w-1/2   pl-28  h-full">
-                    <Heading2 size="small" className="text-left leading-6 " children={titre2} />
-                    <p className="text-left texte_class my-8" dangerouslySetInnerHTML={{ __html: htmlContent2 }}></p>
-
+                    <Heading2 size="small" className="text-left leading-6 ">
+                        {titre2}
+                    </Heading2>
                 </div>
             </div>
         </div>
