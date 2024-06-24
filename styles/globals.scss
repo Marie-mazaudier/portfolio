@@ -1,0 +1,56 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: 'Grotesk-Light';
+    font-style: normal;
+    font-weight: 300; // Barlow-Light
+    src: url('/fonts/grotesk/SpaceGrotesk-Light.woff2') format('woff2'),
+         url('/fonts/grotesk/SpaceGrotesk-Light.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Grotesk-Medium';
+    font-style: normal;
+    font-weight: 500; // Barlow-Medium
+    src: url('/fonts/grotesk/SpaceGrotesk-Medium.woff2') format('woff2'),
+         url('/fonts/grotesk/SpaceGrotesk-Medium.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Grotesk';
+    font-style: normal;
+    font-weight: 400; // Barlow-Regular
+    src: url('/fonts/grotesk/SpaceGrotesk-Regular.woff2') format('woff2'),
+         url('/fonts/grotesk/SpaceGrotesk-Regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Grotesk-SemiBold';
+    font-style: normal;
+    font-weight: 600; // Barlow-SemiBold
+    src: url('/fonts/grotesk/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+         url('/fonts/grotesk/SpaceGrotesk-SemiBold.woff') format('woff');
+  }
+  .circular-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .char {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  h1, h2, h3, h4, h5, h6, p, span, li, a{
+    font-family: 'Grotesk';
+  }
+h1{
+    line-height: 1.15em!important;
+}
+  p{
+    font-weight: 400;
+  }
