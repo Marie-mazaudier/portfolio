@@ -16,7 +16,7 @@ export interface PlaceholderProps {
 export const Placeholder: FC<PlaceholderProps> = ({
   src,
   imageWidth = 550,
-  imageHeight = "auto",
+  imageHeight = 550,
   alt = "image",
   className = "",
   objectFit = "cover",
