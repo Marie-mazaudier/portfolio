@@ -24,10 +24,10 @@ export const SelectedWork = ({ recentWorks }: selectedWorkProps) => {
                             slug: recentWork.slug,
                             excerpt: recentWork.excerpt,
                             // publishTime: recentWork.date,
-                            typeDeProjets: recentWork.typeDeProjets.nodes.map(node => ({
-                                name: recentWork.name,
-                                slug: recentWork.slug,
-                            })),
+                           // typeDeProjets: recentWork.typeDeProjets.nodes.map(node => ({
+                              //  name: recentWork.name,
+                              //  slug: recentWork.slug,
+                            //})),
                         }}
                         image={{
                             mediaItemUrl: recentWork.featuredImage?.node?.mediaItemUrl,

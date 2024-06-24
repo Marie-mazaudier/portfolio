@@ -1,10 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Spaces, Heading2, Heading1, Heading3 } from "../../../../../packages/ecommerce-ui/src";
-import useFadeIn from "lib/gsap/fadeIn";
-import * as DOMPurify from 'dompurify';
-import { Placeholder } from "../../../../../packages/ecommerce-ui/src";
-import { BodyText } from "../../../../../packages/ecommerce-ui/src";
-import { AtSign, Phone, MapPin } from 'react-feather';
+import React from "react";
+import { Heading3 } from "@/atoms/typography/headingText/heading3";
+import { BodyText } from "@/atoms/typography/bodyText/BodyText";
+import { Spaces } from "@/atoms/space/Spaces";
+
 
 export interface InfosContactProps {
     adresse?: string;
@@ -15,7 +13,6 @@ export interface InfosContactProps {
 export const InfoContact: React.FC<InfosContactProps> = ({ adresse, email, horaires, telephone }) => {
     /*=============GSAP INITIALISATION===================*/
     // Références pour les éléments que vous souhaitez animer
-    useFadeIn({ repeat: false }); // Pour répéter l'animation à chaque fois que l'élément entre dans la vue
 
 
     return (

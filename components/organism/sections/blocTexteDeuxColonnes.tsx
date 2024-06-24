@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Spaces, Heading2 } from "../../../../../packages/ecommerce-ui/src";
+import { Heading2 } from "@/atoms/typography/headingText/Heading2";
 import * as DOMPurify from 'dompurify';
-import { BodyText } from "../../../../../packages/ecommerce-ui/src";
+import { BodyText } from "@/atoms/typography/bodyText/BodyText";
 
 interface BlocTexteDeuxColonnesProps {
     Text1: string;
