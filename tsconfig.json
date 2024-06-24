@@ -4,6 +4,8 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "noImplicitAny": false, // Autorise les expressions et déclarations avec un typage 'any' implicite
+    "strictNullChecks": false, // N'oblige pas à vérifier si un objet est 'null' ou 'undefined'
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",

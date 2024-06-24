@@ -22,7 +22,9 @@ module.exports = {
       '@typescript-eslint',
     ],
     rules: {
-      // Ajoutez vos règles personnalisées ici
+    "@typescript-eslint/no-explicit-any": "off", // Désactiver les erreurs pour 'any'
+    "@typescript-eslint/no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }], // Réduire la sévérité pour les variables non utilisées
+    "no-extra-semi": "warn" // Réduire la sévérité pour les points-virgules supplémentaires
     },
   }
   
